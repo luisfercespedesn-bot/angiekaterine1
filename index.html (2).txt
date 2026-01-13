@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Profesional - Angie Reina</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f1f5f9;
+        }
+
+        .gradient-header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            background-color: #3b82f6;
+        }
+
+        @media print {
+            .no-print { display: none; }
+            body { background: white; }
+            .card-hover { transform: none !important; box-shadow: none !important; }
+        }
+    </style>
+</head>
+<body class="text-slate-900 leading-relaxed">
+
+    <!-- Header Principal -->
+    <header class="gradient-header text-white py-16 px-6 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between relative z-10">
+            <div class="text-center md:text-left">
+                <h1 class="text-5xl font-extrabold tracking-tight mb-2">ANGIE KATERINE REINA</h1>
+                <p class="text-blue-400 text-xl font-medium tracking-widest uppercase mb-6">Gestión Operativa y Atención Especializada</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:flex md:flex-wrap gap-x-8 gap-y-3 text-sm opacity-90">
+                    <span class="flex items-center gap-2"><i class="fas fa-location-dot text-blue-400"></i> Zaragoza, España</span>
+                    <a href="tel:643195417" class="flex items-center gap-2 hover:text-blue-400 transition"><i class="fas fa-phone text-blue-400"></i> 643 195 417</a>
+                    <a href="mailto:reinagranadaa@gmail.com" class="flex items-center gap-2 hover:text-blue-400 transition"><i class="fas fa-envelope text-blue-400"></i> reinagranadaa@gmail.com</a>
+                    <span class="flex items-center gap-2"><i class="fas fa-id-card text-blue-400"></i> NIE Vigente</span>
+                </div>
+            </div>
+            <button onclick="window.print()" class="no-print mt-10 md:mt-0 border-2 border-white/20 bg-white/10 backdrop-blur-md px-8 py-3 rounded-full font-bold hover:bg-white hover:text-slate-900 transition-all duration-300">
+                <i class="fas fa-file-pdf mr-2"></i> IMPRIMIR CV
+            </button>
+        </div>
+        <!-- Decoración de fondo -->
+        <div class="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl -mr-32 -mt-32"></div>
+    </header>
+
+    <main class="max-w-5xl mx-auto py-12 px-6 grid grid-cols-1 lg:grid-cols-12 gap-12">
+        
+        <!-- Sidebar -->
+        <aside class="lg:col-span-4 space-y-10">
+            <section>
+                <h2 class="text-lg font-bold uppercase tracking-wider mb-4 section-title">Sobre mí</h2>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Profesional con alta capacidad de autogestión y compromiso, especializada en la dinamización de servicios y optimización de la experiencia del cliente. Con una sólida base en gestión de puntos de venta y entornos operativos críticos, aporto un enfoque resolutivo, orden disciplina y una excelente capacidad para trabajar bajo objetivos exigentes y en equipos multidisciplinares.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-lg font-bold uppercase tracking-wider mb-4 section-title">Competencias Clave</h2>
+                <div class="space-y-4">
+                    <div>
+                        <div class="flex justify-between text-xs font-bold mb-1 uppercase">Atención al Cliente</div>
+                        <div class="w-full bg-slate-200 h-1.5 rounded-full"><div class="bg-blue-600 h-1.5 rounded-full" style="width: 95%"></div></div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-xs font-bold mb-1 uppercase">Gestión de Stock</div>
+                        <div class="w-full bg-slate-200 h-1.5 rounded-full"><div class="bg-blue-600 h-1.5 rounded-full" style="width: 90%"></div></div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-xs font-bold mb-1 uppercase">Higiene Alimentaria</div>
+                        <div class="w-full bg-slate-200 h-1.5 rounded-full"><div class="bg-blue-600 h-1.5 rounded-full" style="width: 85%"></div></div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-xs font-bold mb-1 uppercase">Técnicas de Venta</div>
+                        <div class="w-full bg-slate-200 h-1.5 rounded-full"><div class="bg-blue-600 h-1.5 rounded-full" style="width: 80%"></div></div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-lg font-bold uppercase tracking-wider mb-4 section-title">Habilidades Blandas</h2>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-white border border-slate-200 px-3 py-1 rounded text-xs font-medium text-slate-700">Resiliencia</span>
+                    <span class="bg-white border border-slate-200 px-3 py-1 rounded text-xs font-medium text-slate-700">Escucha Activa</span>
+                    <span class="bg-white border border-slate-200 px-3 py-1 rounded text-xs font-medium text-slate-700">Pensamiento Crítico</span>
+                    <span class="bg-white border border-slate-200 px-3 py-1 rounded text-xs font-medium text-slate-700">Resolución de Conflictos</span>
+                    <span class="bg-white border border-slate-200 px-3 py-1 rounded text-xs font-medium text-slate-700">Iniciativa Propia</span>
+                </div>
+            </section>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <div class="lg:col-span-8 space-y-12">
+            
+            <section>
+                <h2 class="text-2xl font-black text-slate-900 mb-8 flex items-center gap-4">
+                    <span class="bg-blue-600 text-white p-2 rounded-lg"><i class="fas fa-history text-sm"></i></span>
+                    EXPERIENCIA DETALLADA
+                </h2>
+
+                <div class="relative border-l-2 border-slate-200 ml-4 pl-8 space-y-12">
+                    
+                    <!-- Puesto 1 -->
+                    <div class="relative">
+                        <div class="absolute -left-[41px] top-1 bg-blue-600 w-4 h-4 rounded-full border-4 border-white"></div>
+                        <div class="flex flex-col md:flex-row md:justify-between mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-800">Responsable de Mantenimiento y Calidad</h3>
+                                <p class="text-blue-600 font-bold italic text-sm">Salmerón Gourmet | Zaragoza</p>
+                            </div>
+                            <span class="text-sm font-black text-slate-400 mt-1 md:mt-0 uppercase tracking-tighter">Mayo 2022 — Enero 2023</span>
+                        </div>
+                        <ul class="space-y-3 text-slate-600 text-sm">
+                            <li class="flex gap-3">
+                                <i class="fas fa-caret-right text-blue-500 mt-1"></i>
+                                <span>Liderazgo en la ejecución de procesos de saneamiento industrial, asegurando la **certificación de higiene diaria** en áreas de alta rotación de productos gourmet y perecederos.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <i class="fas fa-caret-right text-blue-500 mt-1"></i>
+                                <span>Control técnico de productos químicos y maquinaria, optimizando el ciclo de vida de los materiales y garantizando un entorno de trabajo seguro bajo **normativas sanitarias europeas**.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <i class="fas fa-caret-right text-blue-500 mt-1"></i>
+                                <span>Contribución directa a la experiencia del cliente mediante la gestión de la estética comercial, manteniendo el local en condiciones óptimas para visitas de alto perfil.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Puesto 2 -->
+                    <div class="relative">
+                        <div class="absolute -left-[41px] top-1 bg-slate-300 w-4 h-4 rounded-full border-4 border-white"></div>
+                        <div class="flex flex-col md:flex-row md:justify-between mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-800">Especialista en Ventas y Gestión de Stand</h3>
+                                <p class="text-blue-600 font-bold italic text-sm">C.C. Valdebernardo | Madrid</p>
+                            </div>
+                            <span class="text-sm font-black text-slate-400 mt-1 md:mt-0 uppercase tracking-tighter">Ago 2021 — Jul 2021</span>
+                        </div>
+                        <ul class="space-y-3 text-slate-600 text-sm">
+                            <li class="flex gap-3">
+                                <i class="fas fa-caret-right text-blue-500 mt-1"></i>
+                                <span>Impulso del rendimiento comercial del punto de venta, superando objetivos mensuales mediante **venta sugestiva** y asesoramiento técnico especializado en tecnología y moda.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <i class="fas fa-caret-right text-blue-500 mt-1"></i>
+                                <span>Gestión autónoma del ciclo operativo completo: control de inventario rotativo, recepción de nuevos lanzamientos y realización de cierres contables con **desviación cero**.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <i class="fas fa-caret-right text-blue-500 mt-1"></i>
+                                <span>Fidelización de la cartera de clientes a través de un servicio post-venta eficiente y resolución inmediata de incidencias técnicas.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Puesto 3 -->
+                    <div class="relative">
+                        <div class="absolute -left-[41px] top-1 bg-slate-300 w-4 h-4 rounded-full border-4 border-white"></div>
+                        <div class="flex flex-col md:flex-row md:justify-between mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-800">Cajera y Responsable de Reposición Logística</h3>
+                                <p class="text-blue-600 font-bold italic text-sm">Master GIFT Import S.L.</p>
+                            </div>
+                            <span class="text-sm font-black text-slate-400 mt-1 md:mt-0 uppercase tracking-tighter">Feb 2020 — Oct 2020</span>
+                        </div>
+                        <ul class="space-y-3 text-slate-600 text-sm">
+                            <li class="flex gap-3">
+                                <i class="fas fa-caret-right text-blue-500 mt-1"></i>
+                                <span>Supervisión de la logística de almacén, desde la descarga de grandes volúmenes de mercancía hasta la **indexación sistemática** para una reposición ágil.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <i class="fas fa-caret-right text-blue-500 mt-1"></i>
+                                <span>Optimización de la disposición de productos en lineales para potenciar el *visual merchandising*, resultando en una mayor visibilidad de productos de baja rotación.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <i class="fas fa-caret-right text-blue-500 mt-1"></i>
+                                <span>Agilidad y precisión en el cobro masivo, manejando con solvencia picos de afluencia de clientes y garantizando un trato personalizado en cada transacción.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Puesto 4 -->
+                    <div class="relative">
+                        <div class="absolute -left-[41px] top-1 bg-slate-300 w-4 h-4 rounded-full border-4 border-white"></div>
+                        <div class="flex flex-col md:flex-row md:justify-between mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-800">Asistente Operativa de Cocina y Servicio</h3>
+                                <p class="text-blue-600 font-bold italic text-sm">El Samán</p>
+                            </div>
+                            <span class="text-sm font-black text-slate-400 mt-1 md:mt-0 uppercase tracking-tighter">Abr 2019 — May 2019</span>
+                        </div>
+                        <ul class="space-y-3 text-slate-600 text-sm">
+                            <li class="flex gap-3">
+                                <i class="fas fa-caret-right text-blue-500 mt-1"></i>
+                                <span>Gestión operativa en cocina bajo alta demanda, colaborando en la **elaboración de menús** y preparación técnica de ingredientes con enfoque en la eficiencia de tiempos.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <i class="fas fa-caret-right text-blue-500 mt-1"></i>
+                                <span>Cumplimiento riguroso de protocolos de seguridad alimentaria y limpieza de maquinaria pesada, elevando los estándares de higiene del establecimiento.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-black text-slate-900 mb-6 flex items-center gap-4">
+                    <span class="bg-blue-600 text-white p-2 rounded-lg"><i class="fas fa-graduation-cap text-sm"></i></span>
+                    EDUCACIÓN
+                </h2>
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 card-hover">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-lg font-bold">Educación Media / Graduado Escolar</h3>
+                            <p class="text-slate-500 italic">Institución Educativa La Presentación / Liceo Gabriela Mistral</p>
+                        </div>
+                        <span class="bg-blue-50 text-blue-700 px-4 py-1 rounded-full text-xs font-bold uppercase">2010 — 2015</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="no-print bg-slate-900 text-white py-12 px-6 mt-12">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center opacity-70">
+            <p class="text-xs font-medium tracking-widest">ANGIE KATERINE REINA &copy; 2024</p>
+            <div class="flex gap-6 mt-4 md:mt-0">
+                <span class="text-xs uppercase font-bold border-b border-blue-500">Zaragoza</span>
+                <span class="text-xs uppercase font-bold border-b border-blue-500">España</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Animaciones de entrada progresiva
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('opacity-100');
+                        entry.target.classList.remove('opacity-0', 'translate-y-4');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.card-hover, section').forEach(el => {
+                el.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-4');
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
